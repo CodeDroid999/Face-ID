@@ -20,6 +20,10 @@ function Protected() {
 
   return (
     <div className="bg-white pt-40 md:pt-60">
+        <div className="fixed top-0 w-full bg-blue-500 p-4 text-white">
+        
+    </div>
+
       <div className="mx-auto max-w-7xl">
         <h2 className="text-center text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl mb-12">
           You have successfully logged in!
