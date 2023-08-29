@@ -6,28 +6,8 @@ import { Link } from "react-router-dom";
 const accounts = [
   {
     id: "374ed1e4-481b-4074-a26e-6137657c6e35",
-    fullName: "Bilal Gümüş",
+    fullName: "Demo Acc",
     picture: "374ed1e4-481b-4074-a26e-6137657c6e35/1.jpg",
-  },
-  {
-    id: "43332f46-89a4-435c-880e-4d72bb51149a",
-    fullName: "Andrew Clark",
-    picture: "43332f46-89a4-435c-880e-4d72bb51149a/1.jpg",
-  },
-  {
-    id: "b8476d8d-bd7e-405f-aa66-9a22a9727930",
-    fullName: "Amelia Miller",
-    picture: "/b8476d8d-bd7e-405f-aa66-9a22a9727930/1.jpg",
-  },
-  {
-    id: "88421e2c-ca7a-4332-815f-6e12824e2d05",
-    fullName: "Sophia Smith",
-    picture: "/88421e2c-ca7a-4332-815f-6e12824e2d05/1.jpg",
-  },
-  {
-    id: "0c2f5599-9296-4f94-97d5-e773043188ae",
-    fullName: "Emily Martinez",
-    picture: "/0c2f5599-9296-4f94-97d5-e773043188ae/1.jpg",
   },
 ];
 
@@ -52,16 +32,15 @@ function UserSelect() {
   };
 
   return (
-    <div className="h-full flex flex-col items-center justify-center gap-[24px] w-full max-w-[720px] mx-auto">
-      <h1 className="text-2xl font-semibold">Select a Dummy User to Log In</h1>
+    <div className="h-full flex flex-col items-center mt-20 mb-20 justify-center gap-[24px] w-full max-w-[720px] mx-auto bg-gray-200 p-8">
+      <h1 className="text-2xl font-semibold">
+        Upload a picture of your face to Log In
+      </h1>
       <div className="w-full p-4 text-right">
         <div className="mx-auto w-full max-w-md">
           <RadioGroup value={selected} onChange={setSelected}>
             <RadioGroup.Label className="sr-only">Server size</RadioGroup.Label>
             <div className="space-y-2">
-              {accounts.map((account) => (
-                <User key={account.id} user={account} />
-              ))}
               {customUser && (
                 <div className="relative">
                   <User key={customUser.id} user={customUser} type="CUSTOM" />

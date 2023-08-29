@@ -24,16 +24,13 @@ function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://flowbite.com/" className="hover:underline">
-                    Flowbite
+                  <a href="/" className="hover:underline">
+                    Homepage
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
-                    Tailwind CSS
+                  <a href="/" className="hover:underline">
+                    Tailwind{" "}
                   </a>
                 </li>
               </ul>
@@ -44,18 +41,12 @@ function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a
-                    href="https://github.com/themesberg/flowbite"
-                    className="hover:underline "
-                  >
+                  <a href="/" className="hover:underline ">
                     Github
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://discord.gg/4eeurUVvTy"
-                    className="hover:underline"
-                  >
+                  <a href="/" className="hover:underline">
                     Discord
                   </a>
                 </li>
@@ -67,12 +58,12 @@ function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a href="/" className="hover:underline">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="/" className="hover:underline">
                     Terms &amp; Conditions
                   </a>
                 </li>
@@ -89,7 +80,6 @@ function Footer() {
             </a>
             . All Rights Reserved.
           </span>
-          
         </div>
       </div>
     </footer>
