@@ -8,7 +8,7 @@ function Footer() {
           <div className="mb-6 md:mb-0">
             <a href="/" className="flex items-center">
               <img
-                src="../assets/images/logo.png"
+                src="https://i.postimg.cc/kgNGJfCd/logo.png"
                 className="h-10 mr-3"
                 alt="Logo"
               />
