@@ -8,9 +8,9 @@ function Footer() {
           <div className="mb-6 md:mb-0">
             <a href="/" className="flex items-center">
               <img
-                src="../../public/logo.png"
+                src="../assets/images/logo.png"
                 className="h-10 mr-3"
-                alt="FlowBite Logo"
+                alt="Logo"
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Biometric Authentication System
