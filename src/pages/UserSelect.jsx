@@ -33,9 +33,13 @@ function UserSelect() {
 
   return (
     <div className="h-full flex flex-col items-center mt-20 mb-20 justify-center gap-[24px] w-full max-w-[720px] mx-auto bg-gray-200 p-8">
+      
+      <h1 className="text-3xl text-blue-800 font-semibold">Sign up</h1>
       <h1 className="text-2xl font-semibold">
-        Upload a picture of your face to Log In
-      </h1>
+        Upload a picture of your face to sign up.    
+          </h1>
+        <p className="text-md font-semibold text-red-500">
+        Tip: Make sure you upload your latest picture for a seamless log in      </p>
       <div className="w-full p-4 text-right">
         <div className="mx-auto w-full max-w-md">
           <RadioGroup value={selected} onChange={setSelected}>
