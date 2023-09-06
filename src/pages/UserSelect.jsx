@@ -162,6 +162,8 @@ function UserSelect() {
               />
             </svg>
           </Link>
+          <p className="text-md font-semibold text-red-500">
+You will be redirected to the log in page once you have successfully signed up!            </p>
         </div>
       </div>
     </div>
