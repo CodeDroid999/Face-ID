@@ -9,7 +9,6 @@ This is a facial recognition authentication application developed using React an
 ## Screenshots
 
 ![image](https://github.com/BilalGumus/react-face-auth/assets/57847805/1e08cd49-a7cd-4747-89ee-2998bfc79c7d)
-![image](https://github.com/BilalGumus/react-face-auth/assets/57847805/7cc31593-84d7-4ec3-b852-a25fe95a3195)
 ![image](https://github.com/BilalGumus/react-face-auth/assets/57847805/fc9c3dce-3c50-41da-b665-2231a5a651dd)
 ![image](https://github.com/BilalGumus/react-face-auth/assets/57847805/c5fc475f-d5b2-42ac-9a9e-a9cb03e9bcb3)
 ![image](https://github.com/BilalGumus/react-face-auth/assets/57847805/ebaf68bd-4145-4c25-995d-2ed03e54dad0)
